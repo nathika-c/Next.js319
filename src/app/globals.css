@@ -55,3 +55,42 @@ body {
   border-radius: 0.75rem;
   background: white;
 }
+
+.band-card {
+  padding: 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  background: white;
+  max-width: 600px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.band-card h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.image-wrapper img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+  max-height: 350px;
+}
+
+.members-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.members-section h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.members-section ul {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
